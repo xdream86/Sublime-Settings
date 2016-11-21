@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"auto-save",
+		"BracketHighlighter",
+		"GitGutter",
+		"JavaScript & NodeJS Snippets",
+		"JavaScript Completions",
+		"JavaScript Refactor",
+		"JsFormat",
+		"JSLint",
+		"Nodejs",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter-jshint"
+	]
+}
