@@ -1,7 +1,8 @@
 <snippet>
 	<content><![CDATA[
 it('${1:description}', function(done) {		
-	agent.post('${2:path}')
+	supertest(app)
+		.post('${2:path}')
 		.set('Accept', 'application/json')
 		.send({${3:key}: ${4:value}})
 		.expect('Content-Type', /json/)
@@ -9,6 +10,7 @@ it('${1:description}', function(done) {
 		.end(function(err, res) {
 			${5:content}
 		});
+});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>test-case</tabTrigger>

@@ -23,4 +23,6 @@
 	},
 	{ "keys": ["command+shift+w"], "command": "close_others" },
 	{ "keys": ["command+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["command+1"], "command": "focus_side_bar" },
+	{ "keys": ["command+2"], "command": "focus_group", "args": { "group": 0 } },
 ]
