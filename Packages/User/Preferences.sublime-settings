@@ -8,6 +8,7 @@
 		".git",
 		".hg",
 		"CVS",
+		"deploy/deploy_build",
 		"node_modules"
 	],
 	"font_face": "Source Code Pro",
